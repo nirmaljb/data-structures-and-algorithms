@@ -24,7 +24,8 @@ int main(int argc, const char * argv[]) {
     }
     
     for(auto it: arr) {
-        cout << it << " ";
+        cout << it < " ";
     }
     cout << "\n";
 }
+<
