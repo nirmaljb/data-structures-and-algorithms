@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58E62B002CD29B19007E2C4B /* leetcode.169 majority-element.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 58E62AFF2CD29B19007E2C4B /* leetcode.169 majority-element.CPP */; };
+		5836DD272CD4EBFE00CFD1B6 /* delete node.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 5836DD262CD4EBFE00CFD1B6 /* delete node.CPP */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		58BFDD452CC39CE90036D78B /* CopyFiles */ = {
+		58E62B082CD3A195007E2C4B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,23 +23,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		580E817F2CCE7A9700A7F26B /* Longest Subarray with given Sum K(Positives).CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Subarray with given Sum K(Positives).CPP"; sourceTree = "<group>"; };
-		583C411D2CC7473700A134AF /* leetcode.283.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode.283.cpp; sourceTree = "<group>"; };
-		583C411F2CC77E6600A134AF /* rotate arr by k left-right.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "rotate arr by k left-right.cpp"; sourceTree = "<group>"; };
-		583C41232CC799D900A134AF /* union of sorted array with duplicates.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "union of sorted array with duplicates.CPP"; sourceTree = "<group>"; };
-		583C41252CC7B52D00A134AF /* leetcode.268.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode.268.CPP; sourceTree = "<group>"; };
-		586ECDCB2CC8113900FE2B99 /* leetcode.485.max-consecutive-ones.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "leetcode.485.max-consecutive-ones.CPP"; sourceTree = "<group>"; };
-		586ECDCD2CC8267F00FE2B99 /* leetcode.136.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode.136.CPP; sourceTree = "<group>"; };
-		58BFDD472CC39CE90036D78B /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
-		58BFDD4A2CC39CE90036D78B /* left rotate by one.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "left rotate by one.cpp"; sourceTree = "<group>"; };
-		58BFDD512CC3A11B0036D78B /* leetcode.189.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode.189.cpp; sourceTree = "<group>"; };
-		58E62AFB2CD0D029007E2C4B /* leetcode.1.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode.1.CPP; sourceTree = "<group>"; };
-		58E62AFD2CD22022007E2C4B /* leetcode.75.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode.75.CPP; sourceTree = "<group>"; };
-		58E62AFF2CD29B19007E2C4B /* leetcode.169 majority-element.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "leetcode.169 majority-element.CPP"; sourceTree = "<group>"; };
+		5836DD242CD4DCDF00CFD1B6 /* insert a node.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "insert a node.CPP"; sourceTree = "<group>"; };
+		5836DD262CD4EBFE00CFD1B6 /* delete node.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "delete node.CPP"; sourceTree = "<group>"; };
+		58E62B0A2CD3A195007E2C4B /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E62B0D2CD3A195007E2C4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58BFDD442CC39CE90036D78B /* Frameworks */ = {
+		58E62B072CD3A195007E2C4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,92 +40,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58BFDD3E2CC39CE90036D78B = {
+		58E62B012CD3A195007E2C4B = {
 			isa = PBXGroup;
 			children = (
-				58BFDD492CC39CE90036D78B /* Arrays */,
-				58BFDD482CC39CE90036D78B /* Products */,
+				58E62B0C2CD3A195007E2C4B /* LinkedList */,
+				58E62B0B2CD3A195007E2C4B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		58BFDD482CC39CE90036D78B /* Products */ = {
+		58E62B0B2CD3A195007E2C4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58BFDD472CC39CE90036D78B /* Arrays */,
+				58E62B0A2CD3A195007E2C4B /* LinkedList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58BFDD492CC39CE90036D78B /* Arrays */ = {
+		58E62B0C2CD3A195007E2C4B /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				58E62AFA2CD0D010007E2C4B /* Medium */,
-				58E62AF92CD0CFFA007E2C4B /* Easy */,
+				58E62B142CD3A19E007E2C4B /* Easy */,
 			);
-			path = Arrays;
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
-		58E62AF92CD0CFFA007E2C4B /* Easy */ = {
+		58E62B142CD3A19E007E2C4B /* Easy */ = {
 			isa = PBXGroup;
 			children = (
-				583C411D2CC7473700A134AF /* leetcode.283.cpp */,
-				58BFDD512CC3A11B0036D78B /* leetcode.189.cpp */,
-				58BFDD4A2CC39CE90036D78B /* left rotate by one.cpp */,
-				583C411F2CC77E6600A134AF /* rotate arr by k left-right.cpp */,
-				583C41232CC799D900A134AF /* union of sorted array with duplicates.CPP */,
-				583C41252CC7B52D00A134AF /* leetcode.268.CPP */,
-				586ECDCB2CC8113900FE2B99 /* leetcode.485.max-consecutive-ones.CPP */,
-				586ECDCD2CC8267F00FE2B99 /* leetcode.136.CPP */,
-				580E817F2CCE7A9700A7F26B /* Longest Subarray with given Sum K(Positives).CPP */,
+				58E62B0D2CD3A195007E2C4B /* main.cpp */,
+				5836DD242CD4DCDF00CFD1B6 /* insert a node.CPP */,
+				5836DD262CD4EBFE00CFD1B6 /* delete node.CPP */,
 			);
 			path = Easy;
-			sourceTree = "<group>";
-		};
-		58E62AFA2CD0D010007E2C4B /* Medium */ = {
-			isa = PBXGroup;
-			children = (
-				58E62AFB2CD0D029007E2C4B /* leetcode.1.CPP */,
-				58E62AFD2CD22022007E2C4B /* leetcode.75.CPP */,
-				58E62AFF2CD29B19007E2C4B /* leetcode.169 majority-element.CPP */,
-			);
-			path = Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58BFDD462CC39CE90036D78B /* Arrays */ = {
+		58E62B092CD3A195007E2C4B /* LinkedList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58BFDD4E2CC39CE90036D78B /* Build configuration list for PBXNativeTarget "Arrays" */;
+			buildConfigurationList = 58E62B112CD3A195007E2C4B /* Build configuration list for PBXNativeTarget "LinkedList" */;
 			buildPhases = (
-				58BFDD432CC39CE90036D78B /* Sources */,
-				58BFDD442CC39CE90036D78B /* Frameworks */,
-				58BFDD452CC39CE90036D78B /* CopyFiles */,
+				58E62B062CD3A195007E2C4B /* Sources */,
+				58E62B072CD3A195007E2C4B /* Frameworks */,
+				58E62B082CD3A195007E2C4B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Arrays;
-			productName = Arrays;
-			productReference = 58BFDD472CC39CE90036D78B /* Arrays */;
+			name = LinkedList;
+			productName = LinkedList;
+			productReference = 58E62B0A2CD3A195007E2C4B /* LinkedList */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		58BFDD3F2CC39CE90036D78B /* Project object */ = {
+		58E62B022CD3A195007E2C4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					58BFDD462CC39CE90036D78B = {
+					58E62B092CD3A195007E2C4B = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 58BFDD422CC39CE90036D78B /* Build configuration list for PBXProject "Arrays" */;
+			buildConfigurationList = 58E62B052CD3A195007E2C4B /* Build configuration list for PBXProject "LinkedList" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,29 +116,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 58BFDD3E2CC39CE90036D78B;
-			productRefGroup = 58BFDD482CC39CE90036D78B /* Products */;
+			mainGroup = 58E62B012CD3A195007E2C4B;
+			productRefGroup = 58E62B0B2CD3A195007E2C4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58BFDD462CC39CE90036D78B /* Arrays */,
+				58E62B092CD3A195007E2C4B /* LinkedList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		58BFDD432CC39CE90036D78B /* Sources */ = {
+		58E62B062CD3A195007E2C4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E62B002CD29B19007E2C4B /* leetcode.169 majority-element.CPP in Sources */,
+				5836DD272CD4EBFE00CFD1B6 /* delete node.CPP in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		58BFDD4C2CC39CE90036D78B /* Debug */ = {
+		58E62B0F2CD3A195007E2C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		58BFDD4D2CC39CE90036D78B /* Release */ = {
+		58E62B102CD3A195007E2C4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +253,7 @@
 			};
 			name = Release;
 		};
-		58BFDD4F2CC39CE90036D78B /* Debug */ = {
+		58E62B122CD3A195007E2C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -287,7 +261,7 @@
 			};
 			name = Debug;
 		};
-		58BFDD502CC39CE90036D78B /* Release */ = {
+		58E62B132CD3A195007E2C4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -298,25 +272,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58BFDD422CC39CE90036D78B /* Build configuration list for PBXProject "Arrays" */ = {
+		58E62B052CD3A195007E2C4B /* Build configuration list for PBXProject "LinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58BFDD4C2CC39CE90036D78B /* Debug */,
-				58BFDD4D2CC39CE90036D78B /* Release */,
+				58E62B0F2CD3A195007E2C4B /* Debug */,
+				58E62B102CD3A195007E2C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58BFDD4E2CC39CE90036D78B /* Build configuration list for PBXNativeTarget "Arrays" */ = {
+		58E62B112CD3A195007E2C4B /* Build configuration list for PBXNativeTarget "LinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58BFDD4F2CC39CE90036D78B /* Debug */,
-				58BFDD502CC39CE90036D78B /* Release */,
+				58E62B122CD3A195007E2C4B /* Debug */,
+				58E62B132CD3A195007E2C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 58BFDD3F2CC39CE90036D78B /* Project object */;
+	rootObject = 58E62B022CD3A195007E2C4B /* Project object */;
 }
