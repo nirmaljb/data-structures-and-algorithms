@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5836DD272CD4EBFE00CFD1B6 /* delete node.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 5836DD262CD4EBFE00CFD1B6 /* delete node.CPP */; };
+		58A413602CDC703A007B5B2E /* basics01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A4135F2CDC703A007B5B2E /* basics01.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		5836DD242CD4DCDF00CFD1B6 /* insert a node.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "insert a node.CPP"; sourceTree = "<group>"; };
 		5836DD262CD4EBFE00CFD1B6 /* delete node.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "delete node.CPP"; sourceTree = "<group>"; };
+		58A4135F2CDC703A007B5B2E /* basics01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = basics01.cpp; sourceTree = "<group>"; };
 		58E62B0A2CD3A195007E2C4B /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E62B0D2CD3A195007E2C4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,9 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58A4135B2CDC6FB8007B5B2E /* DoublyList */ = {
+			isa = PBXGroup;
+			children = (
+				58A4135F2CDC703A007B5B2E /* basics01.cpp */,
+			);
+			path = DoublyList;
+			sourceTree = "<group>";
+		};
 		58E62B012CD3A195007E2C4B = {
 			isa = PBXGroup;
 			children = (
+				58A4135B2CDC6FB8007B5B2E /* DoublyList */,
 				58E62B0C2CD3A195007E2C4B /* LinkedList */,
 				58E62B0B2CD3A195007E2C4B /* Products */,
 			);
@@ -131,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5836DD272CD4EBFE00CFD1B6 /* delete node.CPP in Sources */,
+				58A413602CDC703A007B5B2E /* basics01.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

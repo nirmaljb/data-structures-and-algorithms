@@ -8,26 +8,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve(vector<int> nums) {
+int solve(vector<int> nums) {
     int n = nums.size();
-    int k = n / 2;
-
-    unordered_map<int, int> store;
+    int candidate = 0;
+    int balance = 0;
     
     for(auto it: nums) {
-        store[it]++;
-    }
-    
-    for(auto it: store) {
-        if(it.second >= k) {
-            cout << it.first << "\n";
-            return;
+        if(balance == 0) {
+            candidate = it;
+        }
+        if(candidate == it) {
+            balance++;
+        }else {
+            balance--;
         }
     }
+    return candidate;
 }
 
 int main() {
     vector<int> arr = {2,2,1,1,1,2,2};
-    solve(arr);
+    cout << solve(arr);
     return 0;
 }
