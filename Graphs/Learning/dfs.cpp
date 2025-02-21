@@ -15,10 +15,10 @@ void dfs(int node, vector<vector<int>> adj, vector<int>& dfs_store, int vis[]) {
 
 vector<int> dfsOfGraph(vector<vector<int>>& adj) {
     int vis[adj.size()] = {0};
-    vis[0] = 1;
+    int start = 0;
     vector<int> dfs_store;
 
-    dfs(0, adj, dfs_store, vis);
+    dfs(start, adj, dfs_store, vis);
     return dfs_store;
 }
 
